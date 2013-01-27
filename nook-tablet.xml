@@ -83,7 +83,7 @@
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
+  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" remote="github" revision="ics" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
@@ -112,7 +112,7 @@
 
   <!-- modified CM projects -->
   <project path="hardware/libhardware" name="KFire-Android/android_hardware_libhardware" remote="github" revision="jellybean" />
-  <project path="hardware/libhardware_legacy" name="KFire-Android/android_hardware_libhardware_legacy" remote="github" revision="jellybean" />
+  <project path="hardware/libhardware_legacy" name="KFire-Android/android_hardware_libhardware_legacy" remote="github" revision="ics" />
   <project path="system/core" name="KFire-Android/android_system_core" remote="github" revision="jellybean" />
   <!-- local projects -->
   <project path="device/bn/acclaim" name="tvall43/android_device_bn_acclaim" remote="github" revision="jellybean"/>
