@@ -111,9 +111,9 @@
   </project>
 
   <!-- modified CM projects -->
-  <project path="hardware/libhardware" name="KFire-Android/android_hardware_libhardware" revision="jellybean" />
-  <project path="hardware/libhardware_legacy" name="KFire-Android/android_hardware_libhardware_legacy" revision="jellybean" />
-  <project path="system/core" name="KFire-Android/android_system_core" revision="jellybean" />
+  <project path="hardware/libhardware" name="KFire-Android/android_hardware_libhardware" remote="github" revision="jellybean" />
+  <project path="hardware/libhardware_legacy" name="KFire-Android/android_hardware_libhardware_legacy" remote="github" revision="jellybean" />
+  <project path="system/core" name="KFire-Android/android_system_core" remote="github" revision="jellybean" />
   <!-- local projects -->
   <project path="device/bn/acclaim" name="tvall43/android_device_bn_acclaim" remote="github" revision="jellybean"/>
   <project path="kernel/bn/acclaim" name="Kuzma30/kernel3NookTablet" remote="github" revision="jellybean"/>
