@@ -86,14 +86,14 @@
   <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" remote="github" revision="ics" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/support" name="platform/frameworks/support" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
+  <!--<project path="hardware/libhardware" name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />-->
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
+  <!--<project path="system/core" name="platform/system/core" />-->
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
