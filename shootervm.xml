@@ -124,7 +124,7 @@
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="github" revision="cm-10.1" />
-  <project path="hardware/msm7k" name="CyanogemMod/sndroid_hardware_msm7k" remote="github" revision="cm-10.1" />
+  <project path="hardware/msm7k" name="CyanogemMod/android_hardware_msm7k" remote="github" revision="cm-10.1" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core" />
   <project path="hardware/ril" name="platform/hardware/ril" remote="caf" />
 </manifest>
