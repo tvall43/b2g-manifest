@@ -109,8 +109,8 @@
 
   <!-- shootervm specific things -->
   <project path="device/htc/msm8660-common" name="Team-Hydra/android_device_htc_msm8660-common" remote="github" revision="cm-10.1" />
-  <project path="device/htc/shootervm" name="Team-Hydra/android_device_htc_shootervm" remote="github" revision="cm-10.1" />
-  <project path="kernel/htc/msm8660" name="Team-Hydra/android_kernel_htc_msm8660" remote="github" revision="cm-10.1" />
+  <project path="device/htc/shootervm" name="tvall43/android_device_htc_shootervm" remote="github" revision="cm-10.1" />
+  <project path="kernel/htc/msm8660" name="tvall43/android_kernel_htc_msm8660" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="github" revision="cm-10.1" />
