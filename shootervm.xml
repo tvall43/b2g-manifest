@@ -12,6 +12,8 @@
   <remote name="mozillaorg"
           fetch="https://git.mozilla.org/releases" />
   <remote name="apitrace" fetch="git://github.com/apitrace/" />
+  <remote name="github"
+          fetch="https://github.com/" />
   <default revision="b2g/ics_strawberry_v1"
            remote="caf"
            sync-j="4" />
@@ -105,16 +107,24 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
 
-  <!-- hamachi specific things -->
-  <project path="device/qcom/common" name="device/qcom/common" />
-  <project path="device/qcom/msm7627a" name="platform/vendor/qcom/msm7627a" />
-  <project path="device/qcom/hamachi" name="android-device-hamachi" remote="b2g" revision="master" />
-  <project path="kernel" name="kernel/msm" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
+  <!-- shootervm specific things -->
+  <project path="device/htc/msm8660-common" name="Team-Hydra/android_device_htc_msm8660-common" remote="github" revision="cm-10.1" />
+  <project path="device/htc/shootervm" name="Team-Hydra/android_device_htc_shootervm" remote="github" revision="cm-10.1" />
+  <project path="kernel/htc/msm8660" name="Team-Hydra/android_kernel_htc_msm8660" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/display-legacy" name="Team-Hydra/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/gps-legacy" name="Team-Hydra/android_hardware_qcom_gps-legacy" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/media-legacy" name="Team-Hydra/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="github" revision="cm-10.1" />
+  <project path="hardware/msm7k" name="CyanogemMod/sndroid_hardware_msm7k" remote="github" revision="cm-10.1" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core" />
   <project path="hardware/ril" name="platform/hardware/ril" remote="caf" />
 </manifest>
